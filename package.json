@@ -1,0 +1,35 @@
+{
+  "name": "clinch.jade",
+  "version": "1.9.0",
+  "description": "Eco template processor for Clinch",
+  "main": "./lib/addon",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Meettya/clinch.jade.git"
+  },
+  "keywords": [
+    "clinch",
+    "jade"
+  ],
+  "author": "Dmitrii Karpich <meettya@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jade" : "*",
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "coffee-script": "*",
+    "async": "*",
+    "chai": "*",
+    "mocha": "*",
+    "colors": "*",
+    "walkdir": "*",
+    "fs-extra": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

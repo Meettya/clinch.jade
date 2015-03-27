@@ -1,0 +1,9 @@
+--compilers coffee:coffee-script/register
+--require coffee-script/register
+--require ./test/mocha_helper.coffee
+--reporter spec
+--colors
+--growl
+--ui bdd
+--slow 500
+--globals my_package,window,document,navigator,React
