@@ -1,7 +1,7 @@
 {
   "name": "clinch.jade",
   "version": "1.9.0",
-  "description": "Eco template processor for Clinch",
+  "description": "Jade template processor for Clinch",
   "main": "./lib/addon",
   "scripts": {
     "test": "mocha"
