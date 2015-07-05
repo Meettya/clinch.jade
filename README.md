@@ -19,3 +19,8 @@ This is external addon for [clinch](https://github.com/Meettya/clinch) - CommonJ
 
 For more information see main module documentation.
 
+## Some things about jade
+
+Compiled [client-mode](https://github.com/visionmedia/jade#a4) template may be used via `require()`. More info in test, also we are have wiki example [jade template engine](https://github.com/Meettya/clinch/wiki/Jade-template-engine-support). You must use `runtime.js` from **Jade** in browser.
+
+**Jade** fast and elegant, and compile to less SLOC than `.eco` in case of using runtime lib.
